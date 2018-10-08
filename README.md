@@ -1,1 +1,1 @@
-"# FeatureToggle.AppSettings" 
+# FeatureToggle.AppSettings
