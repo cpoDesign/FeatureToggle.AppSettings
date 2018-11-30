@@ -1,5 +1,8 @@
 # FeatureToggle.AppSettings
 
+
+[![DepShield Badge](https://depshield.sonatype.org/badges/cpoDesign/FeatureToggle.AppSettings/depshield.svg)](https://depshield.github.io)
+
 App settings feature toggle is simple way of introducing the feature toggling into your application.
 
 # Quick start guide
@@ -61,7 +64,7 @@ App settings feature toggle is simple way of introducing the feature toggling in
 
 
 
-# Depenencies
+# Dependencies
 The package depends on [FeatureToggle.Interface](https://www.nuget.org/packages/FeatureToggle.Interface/)  nuget package, in order to provide ability to override the implementation for implement your own, if this solution is not the right fit.
 
 The source repository for this package is [github FeatureToggle.Interface ](https://github.com/cpoDesign/FeatureToggle.Interface)
