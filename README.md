@@ -1,6 +1,6 @@
 # FeatureToggle.AppSettings
 
-App settings feature toggle is simple way of introducing the feature toggling into your application.
+FeatureToggle.AppSettings is a simple way of introducing the feature-toggling into your application.
 
 # Quick start guide
 
@@ -61,8 +61,8 @@ App settings feature toggle is simple way of introducing the feature toggling in
 
 
 
-# Depenencies
-The package depends on [FeatureToggle.Interface](https://www.nuget.org/packages/FeatureToggle.Interface/)  nuget package, in order to provide ability to override the implementation for implement your own, if this solution is not the right fit.
+# Dependencies
+The package depends on [FeatureToggle.Interface](https://www.nuget.org/packages/FeatureToggle.Interface/)  nuget package, in order to provide the ability to override the implementation for implement your own, if this solution is not the right fit.
 
 The source repository for this package is [github FeatureToggle.Interface ](https://github.com/cpoDesign/FeatureToggle.Interface)
 
