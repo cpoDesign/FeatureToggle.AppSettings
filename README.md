@@ -1,6 +1,6 @@
 # FeatureToggle.AppSettings
 
-App settings feature toggle is simple way of introducing the feature toggling into your application.
+FeatureToggle.AppSettings is a simple way of introducing the feature-toggling into your application.
 
 # Quick start guide
 
@@ -20,7 +20,7 @@ App settings feature toggle is simple way of introducing the feature toggling in
 
 ## Implementation
 
- 1, Register the settings with **startup.cs** file
+ 1) Register the settings with **startup.cs** file
 
            // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -30,7 +30,7 @@ App settings feature toggle is simple way of introducing the feature toggling in
             /// Your outher code...
         }
 
-2, Add features into your *appsettings.json*file
+2) Add features into your *appsettings.json*file
 
     {
       /*your other configuration*/,
@@ -39,7 +39,7 @@ App settings feature toggle is simple way of introducing the feature toggling in
       }
     }
 
-3, Code to access the configuration
+3) Code to access the configuration
 
 
     using FeatureToggle.Interface;
@@ -62,7 +62,7 @@ App settings feature toggle is simple way of introducing the feature toggling in
 
 
 # Depenencies
-The package depends on [FeatureToggle.Interface](https://www.nuget.org/packages/FeatureToggle.Interface/)  nuget package, in order to provide ability to override the implementation for implement your own, if this solution is not the right fit.
+The package depends on [FeatureToggle.Interface](https://www.nuget.org/packages/FeatureToggle.Interface/)  nuget package, in order to provide the ability to override the implementation for implement your own, if this solution is not the right fit.
 
 The source repository for this package is [github FeatureToggle.Interface ](https://github.com/cpoDesign/FeatureToggle.Interface)
 
