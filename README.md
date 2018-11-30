@@ -20,7 +20,7 @@ FeatureToggle.AppSettings is a simple way of introducing the feature-toggling in
 
 ## Implementation
 
- 1) Register the settings with **startup.cs** file
+ 1, Register the settings with **startup.cs** file
 
            // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -30,7 +30,7 @@ FeatureToggle.AppSettings is a simple way of introducing the feature-toggling in
             /// Your outher code...
         }
 
-2) Add features into your *appsettings.json*file
+2, Add features into your *appsettings.json*file
 
     {
       /*your other configuration*/,
@@ -39,7 +39,7 @@ FeatureToggle.AppSettings is a simple way of introducing the feature-toggling in
       }
     }
 
-3) Code to access the configuration
+3, Code to access the configuration
 
 
     using FeatureToggle.Interface;
